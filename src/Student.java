@@ -2,8 +2,7 @@ public class Student {
 
     	private String name;
     	private int test[]= new int[3]; 
-
-      //Constructor that can make it three ways	
+	
       public Student(){
 		this("", 0, 0, 0);}
 
@@ -22,8 +21,7 @@ public class Student {
                 test[i]=t[i];}
         }
 
-    
-    //The other methods that give them different abilites 	
+    	
     public void setName(String nm) {
     	name = nm;}
 
